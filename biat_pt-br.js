@@ -21,7 +21,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 	
 	Criado por: Yoav Bar-Anan (baranan@gmail.com).
 	Modificado por: Gal Maimon
-	Traduzido e Adaptado para PT-BR
+	Traduzido e adaptado para PT-BR por: Túlio Gois (@tuliosg)
 	**/
 
 	function iatExtension(options)
