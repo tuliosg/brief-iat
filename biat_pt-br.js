@@ -45,51 +45,51 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			}, 
 			practiceCategory1 : 
 			{
-				name : 'Mammals', 
+				name : 'Mamíferos', 
 				title : {
-					media : {word : 'Mammals'}, 
+					media : {word : 'Mamíferos'}, 
 					css : {color:'#31b404','font-size':'1.8em'}, 
 					height : 4, 
 					startStimulus : { 
-						media : {word : 'Dogs, Horses, Cows, Lions'}, 
+						media : {word : 'Cachorros, Cavalos, Vacas, Leões'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ 
-					{word : 'Dogs'}, 
-					{word : 'Horses'}, 
-					{word : 'Lions'}, 
-					{word : 'Cows'}
+					{word : 'Cachorros'}, 
+					{word : 'Cavalos'}, 
+					{word : 'Leões'}, 
+					{word : 'Vacas'}
 				], 
 				stimulusCss : {color:'#31b404','font-size':'2em'}
 			},	
 			practiceCategory2 : 
 			{
-				name : 'Birds', 
+				name : 'Aves', 
 				title : {
-					media : {word : 'Birds'}, 
+					media : {word : 'Aves'}, 
 					css : {color:'#31b404','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Pigeons, Swans, Crows, Ravens'}, 
+						media : {word : 'Pombos, Cisnes, Corvos, Gralhas'}, 
 						css : {color:'#31b404','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ 
-					{word : 'Pigeons'}, 
-					{word : 'Swans'}, 
-					{word : 'Crows'}, 
-					{word : 'Ravens'}
+					{word : 'Pombos'}, 
+					{word : 'Cisnes'}, 
+					{word : 'Corvos'}, 
+					{word : 'Gralhas'}
 				], 
 				stimulusCss : {color:'#31b404','font-size':'2em'}
 			},
 			categories : [  
 				{
-					name : 'Black people', 
+					name : 'Pessoas Negras', 
 					title : {
-						media : {word : 'Black people'}, 
+						media : {word : 'Pessoas Negras'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4, 
 						startStimulus : { 
@@ -109,13 +109,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 					stimulusCss : {color:'#31b404','font-size':'2em'}
 				},	
 				{
-					name : 'White people', 
+					name : 'Pessoas Brancas', 
 					title : {
-						media : {word : 'White people'}, 
+						media : {word : 'Pessoas Brancas'}, 
 						css : {color:'#31b404','font-size':'1.8em'}, 
 						height : 4,
 						startStimulus : {
-							media : {word : 'Jake, Connor, Bradley, Alison,Emma, Emily'}, 
+							media : {word : 'Jake, Connor, Bradley, Alison, Emma, Emily'}, 
 							css : {color:'#31b404','font-size':'1em'}, 
 							height : 2
 						}
@@ -133,43 +133,43 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor,Scorer, _) {
 			],
 			attribute1 : 
 			{
-				name : 'Pleasant', 
+				name : 'Agradável', 
 				title : {
-					media : {word : 'Pleasant'}, 
+					media : {word : 'Agradável'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Joy, Love, Happy, Good'}, 
+						media : {word : 'Alegria, Amor, Feliz, Bom'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ 
-					{word : 'Joy'}, 
-					{word : 'Love'}, 
-					{word : 'Happy'}, 
-					{word : 'Good'}
+					{word : 'Alegria'}, 
+					{word : 'Amor'}, 
+					{word : 'Feliz'}, 
+					{word : 'Bom'}
 				], 
 				stimulusCss : {color:'#0000FF','font-size':'2em'}
 			},	
 			attribute2 : 
 			{
-				name : 'Unpleasant', 
+				name : 'Desagradável', 
 				title : {
-					media : {word : 'Unpleasant'}, 
+					media : {word : 'Desagradável'}, 
 					css : {color:'#0000FF','font-size':'1.8em'}, 
 					height : 4,
 					startStimulus : {
-						media : {word : 'Horrible, Evil, Nasty, Bad'}, 
+						media : {word : 'Horrível, Mal, Ruim, Péssimo'}, 
 						css : {color:'#0000FF','font-size':'1em'}, 
 						height : 2
 					}
 				}, 
 				stimulusMedia : [ 
-					{word : 'Horrible'}, 
-					{word : 'Nasty'}, 
-					{word : 'Bad'}, 
-					{word : 'Evil'}
+					{word : 'Horrível'}, 
+					{word : 'Mal'}, 
+					{word : 'Ruim'}, 
+					{word : 'Péssimo'}
 				], 
 				stimulusCss : {color:'#0000FF','font-size':'2em'} 
 			},
